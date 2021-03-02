@@ -11,8 +11,8 @@
 ### 3. Install Ansible:
   	$ sudo apt install ansible -y
 
-check version:
-  	$ ansible --version
+##### check version:
+	$ ansible --version
   
 # Setup Ansible host file
   	$ sudo vim /etc/ansible/hosts
@@ -45,4 +45,4 @@ Run this command on Master node
 
 
 # Now try to ping the host node using ansible:
-	$ ansible all -m ping
+	$ ansible localhost -m ping
