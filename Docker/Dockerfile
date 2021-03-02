@@ -4,6 +4,7 @@ MAINTAINER Tanuj Kumawat "https://github.com/tanujkumawat"
 RUN apt-get update
 
 RUN apt-get install -y openssh-server
+RUN apt-get install -y net-tools
 RUN mkdir /var/run/sshd
 
 RUN echo 'root:root' |chpasswd
