@@ -52,3 +52,10 @@ Check composer installed or not
 
 	$ composer
  
+## 9. Install Laravel using Composer
+
+	$ composer global require laravel/installer
+	
+## 10. Create a new project using Laravel
+
+	$ composer create-project --prefer-dist laravel/laravel:^7.0 project_name
